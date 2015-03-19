@@ -1,0 +1,74 @@
+<!DOCTYPE idea-plugin PUBLIC "Plugin/DTD" "http://plugins.intellij.net/plugin.dtd">
+<idea-plugin url="http://github.com/my-user/my-plugin-repo">
+  <id>com.example.idea.plugin.skeleton</id>
+  <name>IDEA Plugin Skeleton</name>
+  <version>1.0.0</version>
+  <vendor url="http://www.example.com">My Company</vendor>
+
+  <description>
+    <![CDATA[
+        <h1>Plugin Skeleton for IntelliJ IDEA/Android Studio</h1>
+
+        <h2>Authors</h2>
+        <a href="https://github.com/my-user">John Doe</a><br/>
+        <a href="https://github.com/other-user">Jane Doe</a><br/>
+
+        <h2>Repository</h2>
+        Project on github <a href="https://github.com/my-user/my-plugin-repo">my-plugin-repo</a>
+
+        <h2>Description</h2>
+        TODO Add description here.<br>
+
+        <h2>Features</h2>
+
+        <ul>
+            <li>My first cool feature</li>
+            <li>My second cool feature</li>
+        </ul>
+
+        <i>Compiled with Java 1.6</i>
+        <br/>
+        <br/>
+    ]]>
+  </description>
+
+  <change-notes>
+      <![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+
+      <ul>
+        <dt><b>1.0.0 (YYYY-MM-DD)</b></dt>
+        <li>initial development</li>
+      </ul>
+      ]]>
+  </change-notes>
+
+  <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="133"/>
+  <category>Build</category>
+
+  <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <application-components>
+    <!-- Add your application components here -->
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin> 
+      
